@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Register</Title>
+    </head>
+
+    <style>
+        table{
+            border-radius: 15px 50px 35px;
+            border: 15px solid crimson;
+        }
+
+
+        table td a{
+            font-size: 25px;
+        }
+
+        table th a{
+            font-size: 20px;
+        }
+
+        table td a:hover{
+            background-color: crimson;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+
+    <body>
+        <h1 align="center">Register</h1>
+
+        <form action="" method="" enctype="">
+            <table align="center" cellpadding="10">
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" placeholder="Enter your first name"/></td>
+                    <th>Last Name</th>
+                    <td><input type="text" placeholder="Enter your last name"/></td>
+                </tr>
+
+                <tr>
+                    <th>Email Id</th>
+                    <td><input type="email" placeholder="Enter your email id"/></td>
+                    <th>Mobile No</th>
+                    <td><input type="number" placeholder="Enter your mobile no"/></td>
+                </tr>
+
+                <tr>
+                    <th>Password</th>
+                    <td><input type="password" placeholder="Enter your password"/></td>
+                    <th>Confirm Password</th>
+                    <td><input type="password" placeholder="Enter your password"/></td>
+                </tr>
+
+                <tr>
+                    <th>Address</th>
+                    <td colspan="3">
+                        <textarea cols="68" rows="5"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                        <input type="checkbox" checked="checked"/>
+                        <label>I agree to the terms and conditions </label>
+                        <br/> <br/>
+                        <details>
+                            <summary>Read More...</summary>
+                            <font color="crimpson"> Know more about our terms and conditions.....</font>
+                        </details>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th colspan="4">
+                        <button type="submit">Register</button>
+                        &nbsp;
+                        <button type="reset">Clear All</button>
+                        <hr color="red" size="1"/>
+                        <a href="login.html">Registered? Login</a>
+                    </th>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
